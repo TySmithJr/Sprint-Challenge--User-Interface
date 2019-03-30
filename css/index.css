@@ -105,7 +105,7 @@ header nav a:hover {
 }
 
 .jumbo-img{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -284,3 +284,48 @@ footer nav a {
 
 /* about page css starts here */
 
+.first-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
+
+}
+
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.Strategy {
+    border-bottom: 1px solid black;
+}
+
+.how-we-work {
+    /* margin-left: 20px; */
+    border-bottom: 1px solid black
+}
+
+.places-we-work{
+    border-bottom: 1px solid black
+}
+
+.collaboration {
+    border-bottom: 1px solid black;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
