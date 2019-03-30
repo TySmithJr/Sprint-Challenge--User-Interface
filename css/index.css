@@ -91,9 +91,17 @@ padding-bottom: 30px;
 }
 
 header a {
-    font-size: 12px;
+    font-size: 15px;
     text-decoration: none;
     color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ-(-30deg);
+    transform: rotateZ(-30deg);
+
 }
 
 .jumbo-img{
@@ -273,3 +281,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page css starts here */
+
